@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma,  sans-serif;
+}
+
+body{
+    background-color: rgba(53,54,58);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgba(53,54,58);
+    border-bottom: 1px solid rgb(83, 84, 88);
+    padding: 2px;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+    color: #fff;
+    padding: 4px 6px;
+    font-size: 12px;
+    cursor:default;
+    transition: all ease-in-out .5s;
+    text-decoration: none;
+}
+nav a:hover{
+    border-radius: 30px;
+    background-color: rgb(83, 84, 88);
+}
+
+nav i{
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+nav a:first-child{
+    margin-left: 8px;
+}
+
+.bi-person-circle{
+    color: rgb(113, 43, 226);
+}
+.bi-flag{
+    color: lightskyblue;
+}
+.bi-collection-play{
+    color: blue;
+}
+.bi-bootstrap-fill{
+    color: rgb(108, 26, 156);
+}
+
+
+#main-cima{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 13px 13px;
+    text-align: center;
+}
+
+#main-cima p a{
+    padding: 8px;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+#main-cima .img-p{
+    margin-right: 20px;
+}
+#main-cima p a:hover{
+    text-decoration: underline;
+}
+
+#main-cima button{
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+#main-cima button ion-icon{
+    padding: 8px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#main-cima button ion-icon:hover{
+    background-color: rgb(83, 84, 88);
+    border-radius: 30px;
+}
+
+#main-cima button img{
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+#main-cima button img:hover{
+    background-color: rgb(83, 84, 88);
+    border-radius: 30px;
+}
+
+
+#h1-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#h1-input span{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: -7px;
+}
+
+#h1-input h1 .g{
+    color: rgb(56, 56, 237);
+}
+#h1-input h1 .oe{
+    color: rgb(230, 42, 42);
+}
+#h1-input h1 .o{
+    color: rgb(239, 239, 62);
+}
+#h1-input h1 .l{
+    color: green;
+}
+
+#h1-input input{
+    width: 490px;
+    padding: 12px 0px 12px 50px;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    margin-top: 20px;
+}
+
+#h1-input .bi-search{
+    position: absolute;
+    color: rgb(72, 72, 72);
+    margin-top: 140px ;
+    margin-right: 480px;
+    font-size: 14px;
+}
+
+#h1-input .bi-mic-fill{
+    position: absolute;
+    color: rgb(87, 87, 197);
+    margin-top: 140px ;
+    margin-right: -400px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#h1-input .bi-camera{
+    position: absolute;
+    color: rgb(90, 90, 171);
+    margin-top: 140px ;
+    margin-right: -480px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#h1-input input:focus{
+    outline: none;
+}
+
+#add-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add-app button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+    position: fixed;
+}
+
+#add-app i{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.453);
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 17px;
+    font-size: 14px;
+}
+
+#add-app button:hover{
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 110px;
+    background-color: rgb(83, 84, 88);
+}
+
+
+
+
+
+#botao button{
+    text-align: center;
+    background-color: rgb(28, 28, 28);
+    color: rgb(101, 147, 222);
+    border: none;
+    border-radius: 100px;
+    padding: 7px 15px 7px 15px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 19%;
+    margin-left: 87%;
+    font-size: 13px;
+}
+#botao button:hover{
+    background-color: rgba(173, 216, 230, 0.17);
+}
+#botao button i{
+    font-size: 12px;
+    margin-right: 8px;
+}
